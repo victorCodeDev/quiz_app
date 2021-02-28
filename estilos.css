@@ -13,6 +13,10 @@ body {
     justify-content: center;
 }
 
+h2{
+    margin: 20px;
+}
+
 .quiz-container {
     background-color: #ffff;
     font-weight: bold;
@@ -28,11 +32,18 @@ body {
 
 .quiz-header h3 {
     text-align: center;
+    margin: 0;
 }
 
 ul {
     list-style-type: none;
     padding: 0;
+}
+
+ul li {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    cursor: pointer;
 }
 
 button {
@@ -51,3 +62,4 @@ button {
 button:hover {
     background-color: #b723f5;
 }
+
